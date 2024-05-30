@@ -8,10 +8,25 @@
 
 ## Table of contents
 
-- [Getting Started](#getting-started)
-- [Technologies](#technologies)
 - [License](#license)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
 - [Info about Next.js](#info-about-next.js)
+
+## License
+
+License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
+
+This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
+
+## Technologies
+
+Used technologies:
+
+- Next.js
+- React.js
+- TypeScript
+- SASS/SCSS
 
 ## Getting Started
 
@@ -28,21 +43,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Technologies
-
-Used technologies:
-
-- Next.js
-- React.js
-- TypeScript
-- SASS/SCSS
-
-## License
-
-License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
-
-This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
 
 ## Info about Next.js
 
