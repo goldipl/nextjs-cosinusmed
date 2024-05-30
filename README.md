@@ -2,7 +2,9 @@
     <img src="./public/icons/cosinusmed-logo.svg" height="64"/>
 </p>
 
-<p align="center">COSINUS<strong>MED</strong> website ➡️ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).</p>
+<p align="center">
+    This is a <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.
+</p>
 
 ## Table of contents
 
