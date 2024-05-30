@@ -12,7 +12,7 @@
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 - [Live link](#live-link)
-- [Info about Next.js](#info-about-next.js)
+- [Info about Next.js](#info-about-nextjs)
 
 ## License
 
