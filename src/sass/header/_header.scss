@@ -1,0 +1,17 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  backdrop-filter: blur(43px);
+  -webkit-backdrop-filter: blur(43px);
+  z-index: 1;
+  height: 115px;
+  width: 100%;
+  p {
+    font: normal normal 300 18px/82px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+}

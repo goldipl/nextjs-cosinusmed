@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+    <img src="./public/icons/cosinusmed-logo.svg" height="64"/>
+</p>
+
+<p align="center">COSINUS<strong>MED</strong> website ➡️ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).</p>
+
+## Table of contents
+
+- [Getting Started](#getting-started)
+- [Technologies](#technologies)
+- [License](#license)
+- [Info about Next.js](#info-about-next.js)
 
 ## Getting Started
 
@@ -16,11 +27,24 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Used technologies:
 
-## Learn More
+- Next.js
+- React.js
+- TypeScript
+- SASS/SCSS
+
+## License
+
+License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
+
+This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
+
+## Info about Next.js
+
+### - Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -29,7 +53,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### - Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
