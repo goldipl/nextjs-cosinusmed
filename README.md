@@ -11,6 +11,7 @@
 - [License](#license)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
+- [Live link](#live-link)
 - [Info about Next.js](#info-about-next.js)
 
 ## License
@@ -43,6 +44,10 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Live link
+
+https://goldipl.github.io/nextjs-cosinusmed/
 
 ## Info about Next.js
 
