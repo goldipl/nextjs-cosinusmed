@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <div className="home-hero-text">
           <h2>
-            <span>Piekno jest</span>
+            <span>Piękno jest</span>
             <span>doskonałością</span>
             <span>z defektami</span>
           </h2>
