@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./public/icons/cosinusmed-logo.svg" height="64"/>
+    <img src="./public/icons/common/cosinusmed-logo.svg" height="64"/>
 </p>
 
 <p align="center">
