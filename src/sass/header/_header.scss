@@ -1,4 +1,4 @@
-header {
+.header {
   position: absolute;
   top: 0;
   left: 0;
@@ -11,7 +11,89 @@ header {
   p {
     font: normal normal 300 18px/82px Poppins;
     letter-spacing: 0px;
-    color: #ffffff;
+    color: $white_color;
     opacity: 1;
+  }
+  &-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 125px;
+    width: 1240px;
+    margin: 0 auto;
+    &__logo {
+      margin-right: 80px;
+      img {
+        height: 46px;
+        width: auto;
+      }
+    }
+    &__nav {
+      margin-bottom: 8px;
+      .nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        &-li {
+          display: flex;
+          margin: 0 16px;
+          a,
+          span {
+            font: normal normal 300 18px/21px Poppins;
+            color: $white_color;
+            text-decoration: none;
+            cursor: pointer;
+            white-space: pre;
+            &:hover {
+              text-shadow: 1px 0 0 $white_color;
+            }
+          }
+          &.list-second-level {
+            .caretdown-icon {
+              display: flex;
+              margin-left: 6px;
+              line-height: 82px;
+            }
+            .menu-wrapper {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    &__btns {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 8px;
+      margin-left: 21px;
+      .full-white-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 184px;
+        height: 54px;
+        text-decoration: none;
+        border-radius: 119px;
+        background-color: $white_color;
+        color: $grey_color01;
+      }
+      .small-border-white-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 36px;
+        text-decoration: none;
+        border-radius: 119px;
+        border: 2px solid $grey_color02;
+        color: $white_color;
+        text-transform: uppercase;
+        margin-left: 18px;
+      }
+    }
   }
 }
