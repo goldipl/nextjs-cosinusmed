@@ -15,6 +15,7 @@
     opacity: 1;
   }
   &-wrapper {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,6 +39,7 @@
         &-li {
           display: flex;
           margin: 0 16px;
+          user-select: none;
           a,
           span {
             font: normal normal 300 18px/24px Poppins;
@@ -45,6 +47,7 @@
             text-decoration: none;
             cursor: pointer;
             white-space: pre;
+            user-select: none;
             &:hover {
               text-shadow: 1px 0 0 $white_color;
             }
@@ -57,6 +60,12 @@
             }
             .menu-wrapper {
               display: none;
+              position: absolute;
+              top: 115px;
+              left: 0;
+              &.show {
+                display: flex;
+              }
             }
           }
         }

@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import logoCosinusMed from "./../../../public/icons/common/cosinusmed-logo.svg";
 import whiteCaretDownIcon from "./../../../public/icons/common/white_caret_down.svg";
 
 const Header = () => {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
+
   return (
     <header className="header">
       <div className="header-wrapper">
@@ -21,7 +27,10 @@ const Header = () => {
             <li className="nav-list-li">
               <a href="">Strona główna</a>
             </li>
-            <li className="nav-list-li list-second-level">
+            <li
+              className="nav-list-li list-second-level"
+              onClick={handleMenuToggle}
+            >
               <span>Oferta</span>
               <img
                 className="caretdown-icon"
@@ -30,7 +39,7 @@ const Header = () => {
                 height={20}
                 width={16}
               />
-              <div className="menu-wrapper">
+              <div className={`menu-wrapper ${isMenuVisible ? "show" : ""}`}>
                 <div className="menu-wrapper__slot">
                   <h3 className="menu-wrapper__slot--title"></h3>
                   <a href="" className="menu-wrapper__slot--item"></a>
